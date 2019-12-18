@@ -1,0 +1,13 @@
+{
+  "spec_dir": "spec",
+  "spec_files": [
+    "server_side_test_cases/**/*[sS]pec.js",
+    "client_side_test_cases/**/*[sS]pec.js"
+  ],
+  "helpers": [
+    "helpers/**/*.js",
+    "helpers/babel.js"
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": true
+}
